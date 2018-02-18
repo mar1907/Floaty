@@ -1,0 +1,46 @@
+﻿  Camera.cpp
+  Mesh.cpp
+  Model3D.cpp
+Model3D.cpp(24): warning C4018: '<': signed/unsigned mismatch
+Model3D.cpp(65): warning C4018: '<': signed/unsigned mismatch
+Model3D.cpp(146): warning C4018: '<': signed/unsigned mismatch
+  OpenGL_4_Application_VS2015.cpp
+OpenGL_4_Application_VS2015.cpp(321): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+OpenGL_4_Application_VS2015.cpp(322): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+OpenGL_4_Application_VS2015.cpp(516): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+OpenGL_4_Application_VS2015.cpp(783): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+OpenGL_4_Application_VS2015.cpp(1010): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+OpenGL_4_Application_VS2015.cpp(1011): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  6 of 2010 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    36 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+Mesh.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+Mesh.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+Model3D.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+SkyBox.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Marius\Desktop\OpenGL_4_Application_VS2015\Release\vc120.pdb'; linking object as if no debug info
+  OpenGL_4_Application_VS2015.vcxproj -> C:\Users\Marius\Desktop\OpenGL_4_Application_VS2015\Release\OpenGL_4_Application_VS2015.exe
+  OpenGL_4_Application_VS2015.vcxproj -> C:\Users\Marius\Desktop\OpenGL_4_Application_VS2015\Release\OpenGL_4_Application_VS2015.pdb (Full PDB)
